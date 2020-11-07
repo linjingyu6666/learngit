@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="visit_place_array">
+        <item>@string/tai_shan_mountain</item>
+        <item>@string/hua_shan_mountain</item>
+        <item>@string/heng_shan_mountain</item>
+        <item>@string/song_shan_mountain</item>
+    </string-array>
+    <string-array name="place_array">
+        <item>泰山</item>
+        <item>华山</item>
+        <item>衡山</item>
+        <item>嵩山</item>
+    </string-array>
+</resources>

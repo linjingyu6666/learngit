@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HelloWord</string>
+    <string name="button1">Button1</string>
+    <string name="button2">Button2</string>
+    <string name="button3">Button3</string>
+
+    <string name="tai_shan_mountain">泰山</string>
+    <string name="hua_shan_mountain">华山</string>
+    <string name="heng_shan_mountain">衡山</string>
+    <string name="song_shan_mountain">嵩山</string>
+
+</resources>
