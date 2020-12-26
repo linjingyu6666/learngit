@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.newmusicplayer.PlayActivity"
+    android:background="@mipmap/bgn">
+
+    <ImageView
+        android:layout_width="177dp"
+        android:layout_height="167dp"
+        android:src="@drawable/img"
+        android:layout_marginTop="19dp"
+        android:id="@+id/imageView2"
+        android:layout_weight="0.04"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <SeekBar
+
+        android:id="@+id/positionBar"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/xian_dui"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp" />
+
+    <RelativeLayout
+        android:id="@+id/xian_dui"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/play_Btn2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/m1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="33dp"/>
+
+        <ImageView
+            android:id="@+id/next_Btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/love_0"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/play_Btn2"
+            android:layout_toEndOf="@+id/play_Btn2" />
+
+        <ImageView
+            android:id="@+id/last_Btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/love_1"
+            android:layout_marginRight="33dp"
+            android:layout_marginEnd="33dp"
+            android:layout_alignTop="@+id/next_Btn"
+            android:layout_toLeftOf="@+id/play_Btn2"
+            android:layout_toStartOf="@+id/play_Btn2" />
+    </RelativeLayout>
+</RelativeLayout>
+

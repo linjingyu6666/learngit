@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/widget_"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/widget_T"
+        android:layout_width="70sp"
+        android:layout_height="60sp"
+        android:gravity="start"
+        android:text="N/A"
+        android:textColor="#fff"
+        android:textSize="45sp" />
+
+    <LinearLayout
+        android:id="@+id/T"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/widget_T"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="start">
+
+        <TextView
+            android:id="@+id/widget_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/widget_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/widget_image"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/T"
+        android:clickable="true"
+        android:src="@drawable/weather" />
+
+</RelativeLayout>
